@@ -1,0 +1,99 @@
+/* 전체 배경 & 폰트 */
+.app {
+  min-height: 100vh;
+  background: #05070c;
+  color: #e5f0ff;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui,
+    sans-serif;
+  padding: 40px 16px 80px;
+}
+
+/* 헤더 */
+.hero {
+  max-width: 960px;
+  margin: 0 auto 32px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0 0 12px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #9fb3d9;
+  margin: 0;
+}
+
+/* 공통 섹션 */
+.section-title {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.section-subtitle {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #9fb3d9;
+}
+
+/* 지도 섹션 */
+.map-section {
+  max-width: 960px;
+  margin: 24px auto 40px;
+}
+
+.map-wrapper {
+  width: 100%;
+  height: 60vh;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+/* Leaflet 기본 컨트롤 살짝 띄우기 */
+.leaflet-control-container .leaflet-top.leaflet-left {
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+/* EDA 텍스트 리스트 */
+.eda-section {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.eda-section h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.eda-section p {
+  color: #9fb3d9;
+  margin-bottom: 16px;
+}
+
+.eda-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.eda-list li {
+  margin-bottom: 16px;
+  padding: 12px 0;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.08);
+}
+
+.eda-list li strong {
+  font-size: 17px;
+}
